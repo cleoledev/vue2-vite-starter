@@ -1,0 +1,14 @@
+.grid {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: repeat(2, 1fr);
+  height: 400px;
+
+  .left {
+    background-color: blue;
+  }
+
+  .right {
+    background-color: red;
+  }
+}
